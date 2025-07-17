@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pesquisa de CEP</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+  <div class="titulo">
+    <H1>ViaCEP</H1>
+    <h2><strong><u>Consulte CEPs de todo o Brasil</u></strong></h2>
+  </div>
+  <p class='ceppara'>Informe o CEP</p>
+  <p2 class='cepp2'><strong>Digite o CEP e ao sair o campo o endereço será completado. Pode utilizar a tecla TAB após
+      digitar o CEP.</strong></p2>
+  <div class="campo">
+    <label for="cep">CEP:</label>
+    <input type="text" id="cep" name="cep" maxlength="9" placeholder="00000-000" onblur="pesquisacep(this.value)" />
+  </div>
+
+  <div class="campo">
+    <label for="rua">RUA:</label>
+    <input type="text" id="rua" name="rua">
+  </div>
+
+  <div class="campo">
+    <label for="bairro">BAIRRO:</label>
+    <input type="text" id="bairro" name="bairro">
+  </div>
+
+  <div class="campo">
+    <label for="cidade">CIDADE:</label>
+    <input type="text" id="cidade" name="cidade">
+  </div>
+
+  <div class="campo">
+    <label for="estado">ESTADO:</label>
+    <input type="text" id="estado" name="estado">
+  </div>
+
+  <div class="campo">
+    <label for="ibge">IBGE:</label>
+    <input type="text" id="ibge" name="ibge">
+  </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+
+</html>

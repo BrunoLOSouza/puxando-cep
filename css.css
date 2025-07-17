@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Pitter';
+    src: url('fonts/Pitter Paws.otf') format('opentype'), url('fonts/Pitter Paws.ttf') format('truetype');
+}
+
+.titulo {
+    background-color: rgba(196, 181, 107, 0.253);
+    border-bottom: 3px solid rgba(12, 11, 12, 0.685);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: 'Pitter';
+    font: normal 50pt Pitter;
+    width: 200px;
+    height: 0px;
+    line-height: 10px;
+}
+
+h2 {
+    font: normal 10pt Arial;
+}
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.548), rgba(255, 255, 255, 0.274)), url('imagens/fly.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+.ceppara {
+    margin-left: 20px;
+    font-size: 16px;
+    color: green;
+}
+
+.cepp2 {
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.campo input {
+    margin-left: 20px;
+    font-size: 16px;
+    padding: 5px;
+    font-size: 14px;
+}
