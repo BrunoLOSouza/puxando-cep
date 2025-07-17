@@ -1,0 +1,2 @@
+# puxando-cep
+Um programa destinado a pesquisa de endereços tirei a ideia do site VIA-CEP, foi tudo criado pelo VSCode usando apenas JavaScript, usei algumas tecnicas basicas de CSS e HTML, utilizei a API gratuita do VIA-CEP, coloquei imagem no background, coloquei uma fonte diferente, quanto ao funcionamento do programa basicamente vc so precisa colocar um cep valido e apertar tab ou clicar fora da caixinha e ele ja vai retornar todos os dados, caso o cep seja invalido vai aparecer um alert dizendo cep invalido.
