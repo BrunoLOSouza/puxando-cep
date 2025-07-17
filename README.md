@@ -1,2 +1,23 @@
-# puxando-cep
-Um programa destinado a pesquisa de endereços tirei a ideia do site VIA-CEP, foi tudo criado pelo VSCode usando apenas JavaScript, usei algumas tecnicas basicas de CSS e HTML, utilizei a API gratuita do VIA-CEP, coloquei imagem no background, coloquei uma fonte diferente, quanto ao funcionamento do programa basicamente vc so precisa colocar um cep valido e apertar tab ou clicar fora da caixinha e ele ja vai retornar todos os dados, caso o cep seja invalido vai aparecer um alert dizendo cep invalido.
+🧠 Projeto: Busca de Endereços via CEP
+Este é um projeto simples criado no VS Code, com objetivo de buscar endereços a partir de um CEP, utilizando a API gratuita do ViaCEP.
+
+🚀 Tecnologias utilizadas:
+HTML (básico)
+
+CSS (básico)
+
+JavaScript
+
+API ViaCEP
+
+🎨 Funcionalidades e Estilo:
+Validação automática de CEP (pressionando TAB ou clicando fora do campo).
+
+Alerta caso o CEP seja inválido.
+
+Fonte personalizada.
+
+Imagem de fundo aplicada com CSS.
+
+📝 Observações:
+A ideia foi inspirada no site ViaCEP, com o intuito de praticar integração com APIs, estilização com CSS e manipulação de DOM com JavaScript puro.
